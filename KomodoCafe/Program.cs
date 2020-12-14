@@ -15,9 +15,9 @@ namespace KomodoCafe
             MenuRepository menuRepository = new MenuRepository();
             menuRepository.loaddata();
 
-            
-                bool isRunning = true;
-                while (isRunning)
+
+            bool isRunning = true;
+            while (isRunning)
                 {
                 Console.WriteLine("Welcome to Komodo Cafe App\n" +
                     "1. View the full menu\n" +

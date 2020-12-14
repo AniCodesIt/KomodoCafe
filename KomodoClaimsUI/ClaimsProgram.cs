@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 namespace KomodoClaimsUI
 {
     class ClaimsProgram
-    {
+    {          
         static void Main(string[] args)
         {
+            ClaimsProgramUI program = new ClaimsProgramUI();
+            program.Run();
         }
+        
     }
 }

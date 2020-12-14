@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KomodoClaimsRepo
 {
-    class ClaimsRepository
+   public class ClaimsRepository
     {
         private Queue<ClaimContent> _claimsQueue = new Queue<ClaimContent>();
         public Queue<ClaimContent> QueueOfClaims { get; set; }
